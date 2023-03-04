@@ -1,6 +1,6 @@
 # UVic Quantum Computing - GitHub Codespaces Template
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?template_repository=FlyteWizard/verbose-octo-engine)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?template_repository=FlyteWizard/verbose-octo-engine&machine=standardLinux32gb&devcontainer_path=.devcontainer%2Fdevcontainer.json&location=WestUs2re)
 [![MIT License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](https://github.com/FlyteWizard/verbose-octo-engine/blob/main/LICENSE)
 
 A Quantum Computing GitHub Codespaces for Developing Q# and Qiskit with Jupyter Notebook.
