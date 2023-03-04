@@ -3,6 +3,8 @@
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?template_repository=FlyteWizard/verbose-octo-engine)
 [![MIT License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](https://github.com/FlyteWizard/verbose-octo-engine/blob/main/LICENSE)
 
+A Quantum Computing GitHub Codespaces for Developing Q# and Qiskit with Jupyter Notebook.
+
 ## Resources
 
 - [GitHub Student Developer Pack](https://education.github.com/pack/offers)
