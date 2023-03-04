@@ -1,0 +1,16 @@
+# A base .gitignore for Quantum Computing w/ Jupyter Notebook
+
+# macOS
+.DS_Store
+
+# Python and Jupyter Notebook
+__pycache__/
+__pypackages__/
+.ipynb_checkpoints
+*/obj/
+
+# Environments
+.env
+.venv
+env/
+venv/
