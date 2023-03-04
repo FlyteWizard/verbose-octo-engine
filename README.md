@@ -11,6 +11,8 @@ A Quantum Computing GitHub Codespaces for Developing Q# and Qiskit with Jupyter 
 1. Open Visual Studio Code on Local Development Environment
 1. Install GitHub Codespaces Extension for Visual Studio Code
 1. Click 'Open in GitHub Codespaces' Badge
+1. Follow Instructions to Create GitHub Codespaces
+1. Wait for GitHub Codespaces to Build
 
 _Resources_:
 
