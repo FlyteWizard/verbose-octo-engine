@@ -1,8 +1,8 @@
 {
    "id": "uvic-quantum-computing",
   "name": "UVic Quantum Computing",
-  "description": "",
-  "documentationURL": "",
+  "description": "A Quantum Computing GitHub Codespaces for Developing Q# and Qiskit with Jupyter Notebook",
+  "documentationURL": "https://github.com/FlyteWizard/verbose-octo-engine",
   "remoteUser": "root",
   "image": "mcr.microsoft.com/quantum/iqsharp-base:latest",
   "customizations": {
@@ -26,7 +26,6 @@
   },
   "features": {
     "ghcr.io/devcontainers/features/github-cli:latest": {},
-    "ghcr.io/devcontainers-contrib/features/zsh-plugins:latest": {},
     "ghcr.io/meaningful-ooo/devcontainer-features/homebrew:latest": {},
     "ghcr.io/rocker-org/devcontainer-features/pandoc:latest": {},
     "ghcr.io/rocker-org/devcontainer-features/apt-packages:latest": {
