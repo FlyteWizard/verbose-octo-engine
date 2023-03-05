@@ -16,14 +16,15 @@ A Quantum Computing GitHub Codespaces for Developing Q# and Qiskit with Jupyter 
 
 _Resources_:
 
-- [Setting Your Default Editor for GitHub Codespaces](https://docs.github.com/en/codespaces/customizing-your-codespace/setting-your-default-editor-for-github-codespaces)
 - [GitHub Codespaces Extension](https://marketplace.visualstudio.com/items?itemName=GitHub.codespaces)
+- - [Setting Your Default Editor for GitHub Codespaces](https://docs.github.com/en/codespaces/customizing-your-codespace/setting-your-default-editor-for-github-codespaces)
 
 ## Resources
 
-- [GitHub Student Developer Pack](https://education.github.com/pack/offers)
-- [Jupyer Notebook](https://jupyter-notebook.readthedocs.io/en/stable/)
-- [Q# and Quantum Development Kit](https://learn.microsoft.com/en-us/azure/quantum/overview-what-is-qsharp-and-qdk)
-- [Microsoft Quantum Development Kit: IQ# Kernel](https://github.com/microsoft/iqsharp/#using-iq-as-a-container)
-- [Remote Development Container for Visual Studio Code](https://github.com/microsoft/Quantum/tree/master/.devcontainer)
 - [Developing with GitHub Codespaces](https://code.visualstudio.com/docs/remote/codespaces)
+- [GitHub Codespaces](https://github.com/features/codespaces)
+- [GitHub Student Developer Pack](https://education.github.com/pack/offers)
+- [Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/stable/)
+- [Microsoft Quantum Development Kit: IQ# Kernel](https://github.com/microsoft/iqsharp/#using-iq-as-a-container)
+- [Q# and Quantum Development Kit](https://learn.microsoft.com/en-us/azure/quantum/overview-what-is-qsharp-and-qdk)
+- [Remote Development Container for Visual Studio Code](https://github.com/microsoft/Quantum/tree/master/.devcontainer)
