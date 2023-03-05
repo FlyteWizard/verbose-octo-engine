@@ -17,7 +17,7 @@ A Quantum Computing GitHub Codespaces for Developing Q# and Qiskit with Jupyter 
 _Resources_:
 
 - [GitHub Codespaces Extension](https://marketplace.visualstudio.com/items?itemName=GitHub.codespaces)
-- - [Setting Your Default Editor for GitHub Codespaces](https://docs.github.com/en/codespaces/customizing-your-codespace/setting-your-default-editor-for-github-codespaces)
+- [Setting Your Default Editor for GitHub Codespaces](https://docs.github.com/en/codespaces/customizing-your-codespace/setting-your-default-editor-for-github-codespaces)
 
 ## Resources
 
