@@ -17,6 +17,8 @@ A Quantum Computing GitHub Codespaces for Developing Q# and Qiskit with Jupyter 
 1. Follow Instructions to Create GitHub Codespaces
 1. Wait for GitHub Codespaces to Build
 
+It might take a few minutes for the GitHub Codespaces to build. Once the GitHub Codespaces is built, you can start developing.
+
 _Resources_:
 
 - [GitHub Codespaces Extension](https://marketplace.visualstudio.com/items?itemName=GitHub.codespaces)

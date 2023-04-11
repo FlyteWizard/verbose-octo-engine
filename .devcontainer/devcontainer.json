@@ -1,14 +1,14 @@
 {
-   "id": "uvic-quantum-computing",
   "name": "UVic Quantum Computing",
-  "description": "A Quantum Computing GitHub Codespaces for Developing Q# and Qiskit with Jupyter Notebook",
-  "documentationURL": "https://github.com/FlyteWizard/verbose-octo-engine",
-  "remoteUser": "root",
   "image": "mcr.microsoft.com/quantum/iqsharp-base:latest",
+  "remoteUser": "root",
   "customizations": {
     "vscode": {
       "extensions": [
+        "esbenp.prettier-vscode",
         "GitHub.codespaces",
+        "GitHub.copilot-labs",
+        "GitHub.copilot-nightly",
         "GitHub.github-vscode-theme",
         "ms-python.isort",
         "ms-python.python",
@@ -20,8 +20,16 @@
         "ms-toolsai.vscode-jupyter-slideshow",
         "ms-vscode-remote.remote-containers",
         "ms-vscode.csharp",
-        "quantum.quantum-devkit-vscode"
+        "quantum.quantum-devkit-vscode",
+        "streetsidesoftware.code-spell-checker",
+        "tomoki1207.pdf",
+        "VisualStudioExptTeam.intellicode-api-usage-examples",
+        "VisualStudioExptTeam.vscodeintellicode",
+        "yzhang.markdown-all-in-one"
       ]
+    },
+    "codespaces": {
+      "openFiles": ["README.md", "qiskit-example.ipynb", "qsharp-example.ipynb"]
     }
   },
   "features": {
