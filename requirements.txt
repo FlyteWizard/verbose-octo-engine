@@ -11,7 +11,7 @@ async-timeout==4.0.2
 attrs==22.2.0
 azure-core==1.26.3
 azure-identity==1.12.0
-azure-quantum @ file:///home/jovyan/.packages/wheels/azure_quantum-0.27.258160-py3-none-any.whl
+azure-quantum==0.28.263081
 azure-storage-blob==12.15.0
 backcall==0.2.0
 basis-set-exchange==0.9
@@ -111,14 +111,14 @@ python-markdown-math==0.8
 pytz==2022.7.1
 PyYAML==6.0
 pyzmq==25.0.0
-qdk @ file:///home/jovyan/.packages/wheels/qdk-0.27.258160-py3-none-any.whl
+qdk==0.28.263081
 qiskit==0.41.1
 qiskit-aer==0.11.2
 qiskit-ibmq-provider==0.20.1
 qiskit-terra==0.23.2
-qsharp @ file:///home/jovyan/.packages/wheels/qsharp-0.27.258160-py3-none-any.whl
-qsharp-chemistry @ file:///home/jovyan/.packages/wheels/qsharp_chemistry-0.27.258160-py3-none-any.whl
-qsharp-core @ file:///home/jovyan/.packages/wheels/qsharp_core-0.27.258160-py3-none-any.whl
+qsharp==0.28.263081
+qsharp-chemistry==0.28.263081
+qsharp-core==0.28.263081
 qtconsole==5.4.0
 QtPy==2.3.0
 regex==2022.10.31
@@ -142,8 +142,11 @@ symengine==0.9.2
 sympy==1.11.1
 terminado==0.17.1
 tinycss2==1.2.1
+torch==1.12.1
+torchvision==0.13.1
 tornado==6.2
 traitlets==5.9.0
+tqdm==4.64.0
 typing_extensions==4.5.0
 uri-template==1.2.0
 urllib3==1.26.14
