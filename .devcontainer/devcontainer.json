@@ -1,14 +1,17 @@
 {
   "name": "UVic Quantum Computing",
   "image": "mcr.microsoft.com/quantum/iqsharp-base:latest",
-  "remoteUser": "root",
   "customizations": {
     "vscode": {
       "extensions": [
+        "christian-kohler.npm-intellisense",
+        "DavidAnson.vscode-markdownlint",
+        "dbaeumer.vscode-eslint",
+        "eamodio.gitlens",
         "esbenp.prettier-vscode",
         "GitHub.codespaces",
         "GitHub.copilot-labs",
-        "GitHub.copilot-nightly",
+        "GitHub.copilot",
         "GitHub.github-vscode-theme",
         "ms-python.isort",
         "ms-python.python",
@@ -25,20 +28,21 @@
         "tomoki1207.pdf",
         "VisualStudioExptTeam.intellicode-api-usage-examples",
         "VisualStudioExptTeam.vscodeintellicode",
+        "waderyan.gitblame",
         "yzhang.markdown-all-in-one"
       ]
-    },
-    "codespaces": {
-      "openFiles": ["README.md", "qiskit-example.ipynb", "qsharp-example.ipynb"]
     }
   },
   "features": {
-    "ghcr.io/devcontainers/features/github-cli:latest": {},
-    "ghcr.io/meaningful-ooo/devcontainer-features/homebrew:latest": {},
-    "ghcr.io/rocker-org/devcontainer-features/pandoc:latest": {},
-    "ghcr.io/rocker-org/devcontainer-features/apt-packages:latest": {
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/meaningful-ooo/devcontainer-features/homebrew:2": {},
+    "ghcr.io/rocker-org/devcontainer-features/pandoc:1": {},
+    "ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
       "packages": "texlive-xetex,texlive-fonts-recommended,texlive-plain-generic"
     }
   },
-  "postCreateCommand": "pip install -r .devcontainer/requirements.txt"
+  "waitFor": "onCreateCommand",
+  "updateContentCommand": "python -m pip install --user -r requirements.txt && python -m ipykernel install --user --name qiskit --display-name 'Python (Qiskit)'",
+  "postCreateCommand": "pip install --user -r requirements.txt",
+  "remoteUser": "root"
 }
