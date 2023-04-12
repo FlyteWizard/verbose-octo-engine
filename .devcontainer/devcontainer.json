@@ -1,6 +1,9 @@
 {
   "name": "UVic Quantum Computing",
   "image": "mcr.microsoft.com/quantum/iqsharp-base:latest",
+  "hostRequirements": {
+    "cpus": 4
+  },
   "customizations": {
     "vscode": {
       "extensions": [
